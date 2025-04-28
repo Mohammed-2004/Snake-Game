@@ -68,3 +68,21 @@ The heuristic used is the **Manhattan Distance** for efficient navigation.
 2. **Install required library**:
    ```bash
    pip install pygame
+
+---
+
+## 🎯 How to Play
+
+- The snake automatically moves toward the food using the AI.
+- You don't need to control the snake manually.
+- The goal is to **eat as much food as possible** without crashing into walls or the snake's own body.
+- Each time the snake eats food:
+  - The snake grows longer.
+  - The speed slightly increases.
+  - A sound effect plays (`eat.wav`).
+- If the snake collides with itself or a wall:
+  - The game ends.
+  - A game over sound (`gameover.wav`) is played.
+- You can exit the game at any time by closing the game window.
+
+---
