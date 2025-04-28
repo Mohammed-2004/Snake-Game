@@ -56,7 +56,7 @@ The heuristic used is the **Manhattan Distance** for efficient navigation.
 |------------|--------|
 | Snake Head | Green  |
 | Snake Body | Light Green |
-| Food       | Blue   |
+| Food       | Red   |
 | Walls      | Gray   |
 | Background | Black  |
 
